@@ -39,6 +39,7 @@ export default function Home({ allPostsData }) {
     </Layout>
   )
 }
+//fetch blog data
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
